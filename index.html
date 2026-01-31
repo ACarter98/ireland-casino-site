@@ -18,17 +18,19 @@
     
     <!-- Affiliate Tracking -->
     <script>
-        // Affiliate tracking for Ireland market
+        // Affiliate tracking for Ireland market - International casino links
         const affiliateLinks = {
-            '888': 'https://track.888affiliates.com/click?pid=IRELAND001&offer_id=12345',
-            'bet365': 'https://affiliates.bet365.com/tracking?affiliate=IRELAND001&offer=casino',
-            'pokerstars': 'https://www.pokerstars.com/affiliate/tracking?id=IRELAND001&campaign=casino',
-            'williamhill': 'https://affiliates.williamhill.com/track?aff=IRELAND001&product=casino',
-            'betfair': 'https://affiliate.betfair.com/tracking?affiliate=IRELAND001&channel=casino'
+            'luckyones': 'https://luckyones.site/kdb51d164',
+            'fatfruit': 'https://fatfruit.live/n1c761949e',
+            'spinfever': 'https://deeplogic.media/n14286fd09',
+            'rooli': 'https://rooli.live/n17c8efc86',
+            'justcasino': 'https://justcasino.info/k9f19c69c',
+            'luckydreams': 'https://luckydreams.info/k4dd83fa6',
+            'letslucky': 'https://letslucky.info/ke1b53b36'
         };
         
         function trackAffiliateClick(program) {
-            const link = affiliateLinks[program] || affiliateLinks['888'];
+            const link = affiliateLinks[program] || affiliateLinks['luckyones'];
             // Track click analytics
             console.log('Affiliate click tracked:', program, 'for Ireland market');
             window.open(link, '_blank');
@@ -36,9 +38,11 @@
         }
         
         function trackRegistration() {
-            // Track registration conversion
-            console.log('Registration tracked for Ireland market');
-            window.location.href = affiliateLinks['888'];
+            // Track registration conversion - rotate through top performers
+            const programs = ['luckyones', 'fatfruit', 'spinfever', 'rooli'];
+            const randomProgram = programs[Math.floor(Math.random() * programs.length)];
+            console.log('Registration tracked for Ireland market via', randomProgram);
+            window.location.href = affiliateLinks[randomProgram];
             return false;
         }
     </script>
@@ -332,37 +336,37 @@
                             <div class="game-icon">🎰</div>
                             <h3>Irish Pokies</h3>
                             <p>Play popular slot games with Irish themes and progressive jackpots</p>
-                            <a href="#" onclick="return trackAffiliateClick('888');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('luckyones');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                         <div class="game-card">
                             <div class="game-icon">🃏</div>
                             <h3>Blackjack</h3>
                             <p>Classic 21 games with Irish variations and live dealers</p>
-                            <a href="#" onclick="return trackAffiliateClick('bet365');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('fatfruit');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                         <div class="game-card">
                             <div class="game-icon">🎡</div>
                             <h3>Roulette</h3>
                             <p>European, American, and Irish-themed roulette tables</p>
-                            <a href="#" onclick="return trackAffiliateClick('pokerstars');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('spinfever');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                         <div class="game-card">
                             <div class="game-icon">🎲</div>
                             <h3>Live Casino</h3>
                             <p>Real dealers, real action - play with Irish croupiers</p>
-                            <a href="#" onclick="return trackAffiliateClick('williamhill');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('rooli');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                         <div class="game-card">
                             <div class="game-icon">🎯</div>
                             <h3>Poker</h3>
                             <p>Texas Hold'em, Omaha, and Irish Poker variations</p>
-                            <a href="#" onclick="return trackAffiliateClick('betfair');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('justcasino');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                         <div class="game-card">
                             <div class="game-icon">🍀</div>
                             <h3>Specialty Games</h3>
                             <p>Keno, Bingo, and luck-based Irish games</p>
-                            <a href="#" onclick="return trackAffiliateClick('888');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
+                            <a href="#" onclick="return trackAffiliateClick('luckydreams');" style="color: #4CAF50; font-weight: bold;">Play Now →</a>
                         </div>
                     </div>
                 </div>
