@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ireland Casino",
+  "description": "Ireland's premier online casino offering pokies, table games, and live dealer games with EUR currency and Irish banking methods.",
+  "url": "https://ireland-casino.org",
+  "logo": "https://ireland-casino.org/images/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+353-1-234-5678",
+    "contactType": "customer service",
+    "email": "support@ireland-casino.org",
+    "areaServed": "IE",
+    "availableLanguage": ["en"]
+  },
+  "sameAs": [
+    "https://twitter.com/irelandcasino",
+    "https://facebook.com/irelandcasino"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Casino Street",
+    "addressLocality": "Dublin",
+    "addressCountry": "IE",
+    "postalCode": "D01 123"
+  }
+}

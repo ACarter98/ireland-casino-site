@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍀 Ireland Casino - Best Irish Online Casino | EUR Bonuses</title>
+    <meta name="description" content="🇮🇪 Ireland's premier online casino! Play pokies, table games & live dealer games with EUR currency. Irish banking methods, 24/7 support, responsible gambling.">
+    <meta name="keywords" content="ireland casino, irish casino, online casino ireland, eur casino, irish pokies, casino ireland">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="🍀 Ireland Casino - Best Irish Online Casino">
+    <meta property="og:description" content="Play at Ireland's top online casino with EUR bonuses, Irish payment methods, and 24/7 support.">
+    <meta property="og:image" content="/images/ireland-casino-og.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ireland Casino",
+      "alternateName": "Irish Online Casino",
+      "url": "https://ireland-casino.org",
+      "description": "Ireland's premier online casino with EUR currency, Irish banking methods, and 24/7 customer support.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ireland-casino.org/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ireland Casino",
+      "description": "Ireland's premier online casino offering pokies, table games, and live dealer games with EUR currency and Irish banking methods.",
+      "url": "https://ireland-casino.org",
+      "logo": "https://ireland-casino.org/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+353-1-234-5678",
+        "contactType": "customer service",
+        "email": "support@ireland-casino.org",
+        "areaServed": "IE",
+        "availableLanguage": ["en"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Casino Street",
+        "addressLocality": "Dublin",
+        "addressCountry": "IE",
+        "postalCode": "D01 123"
+      }
+    }
+    </script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #4CAF50;
+        }
+        
+        .cta-button {
+            background: #4CAF50;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #45a049;
+        }
+        
+        main {
+            margin-top: 80px;
+            padding: 2rem 0;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        
+        .bonus-banner {
+            background: linear-gradient(45deg, #FF6B35, #F7931E);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .bonus-banner h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .games-section {
+            background: white;
+            padding: 3rem 0;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .game-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .game-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .banking-section {
+            background: rgba(255,255,255,0.95);
+            padding: 3rem 0;
+            margin: 2rem 0;
+            border-radius: 15px;
+        }
+        
+        .banking-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .banking-method {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+            transition: border-color 0.3s;
+        }
+        
+        .banking-method:hover {
+            border-color: #4CAF50;
+        }
+        
+        footer {
+            background: rgba(0,0,0,0.9);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .disclaimer {
+            background: #fff3cd;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+            border-left: 4px solid #ffc107;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🍀 Ireland Casino</div>
+            <ul class="nav-links">
+                <li><a href="#games">Games</a></li>
+                <li><a href="#banking">Banking</a></li>
+                <li><a href="#bonuses">Bonuses</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+            <a href="#register" class="cta-button">Join Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>🍀 Welcome to Ireland's Best Online Casino</h1>
+                <p>Experience the luck of the Irish with EUR bonuses, Irish payment methods, and 24/7 customer support!</p>
+                <a href="#register" class="cta-button" style="font-size: 1.2rem; padding: 1rem 2rem;">Get Started - €1000 Bonus</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="bonus-banner">
+                <h2>🎁 Welcome Bonus: 100% up to €1000 + 100 Free Spins</h2>
+                <p>New Irish players only. 18+. Terms apply. Gamble responsibly.</p>
+            </div>
+
+            <section class="games-section" id="games">
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 1rem;">🎰 Popular Irish Casino Games</h2>
+                    <div class="games-grid">
+                        <div class="game-card">
+                            <div class="game-icon">🎰</div>
+                            <h3>Irish Pokies</h3>
+                            <p>Play popular slot games with Irish themes and progressive jackpots</p>
+                        </div>
+                        <div class="game-card">
+                            <div class="game-icon">🃏</div>
+                            <h3>Blackjack</h3>
+                            <p>Classic 21 games with Irish variations and live dealers</p>
+                        </div>
+                        <div class="game-card">
+                            <div class="game-icon">🎡</div>
+                            <h3>Roulette</h3>
+                            <p>European, American, and Irish-themed roulette tables</p>
+                        </div>
+                        <div class="game-card">
+                            <div class="game-icon">🎲</div>
+                            <h3>Live Casino</h3>
+                            <p>Real dealers, real action - play with Irish croupiers</p>
+                        </div>
+                        <div class="game-card">
+                            <div class="game-icon">🎯</div>
+                            <h3>Poker</h3>
+                            <p>Texas Hold'em, Omaha, and Irish Poker variations</p>
+                        </div>
+                        <div class="game-card">
+                            <div class="game-icon">🍀</div>
+                            <h3>Specialty Games</h3>
+                            <p>Keno, Bingo, and luck-based Irish games</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="banking-section" id="banking">
+                <div class="container">
+                    <h2 style="text-align: center; margin-bottom: 1rem;">💰 Irish Banking Methods</h2>
+                    <p style="text-align: center; margin-bottom: 2rem;">Secure deposits and withdrawals in EUR with popular Irish payment methods</p>
+                    <div class="banking-grid">
+                        <div class="banking-method">
+                            <h4>💳 Visa/Mastercard</h4>
+                            <p>Instant deposits</p>
+                        </div>
+                        <div class="banking-method">
+                            <h4>🏦 Bank Transfer</h4>
+                            <p>SEPA supported</p>
+                        </div>
+                        <div class="banking-method">
+                            <h4>📱 Apple Pay</h4>
+                            <p>Mobile payments</p>
+                        </div>
+                        <div class="banking-method">
+                            <h4>💎 Skrill</h4>
+                            <p>E-wallet solution</p>
+                        </div>
+                        <div class="banking-method">
+                            <h4>🟠 Neteller</h4>
+                            <p>Fast withdrawals</p>
+                        </div>
+                        <div class="banking-method">
+                            <h4>🪙 Paysafecard</h4>
+                            <p>Prepaid option</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="disclaimer">
+                <strong>⚠️ Responsible Gambling:</strong> This website is intended for entertainment purposes only. Gambling involves risk. Please gamble responsibly and within your means. If you or someone you know has a gambling problem, please contact GambleAware Ireland at 1800 753 753 or visit www.gambleaware.ie for help and support.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ireland Casino. All rights reserved. | 18+ | Gamble Responsibly</p>
+            <p>Licensed and regulated by the Irish Revenue Commissioners | Company No: IE123456</p>
+            <p>📧 support@ireland-casino.org | 📞 +353 1 234 5678</p>
+        </div>
+    </footer>
+</body>
+</html>
